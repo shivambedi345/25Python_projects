@@ -29,7 +29,8 @@ def get_payout(row, bet):
     
 
 def main():
-    balance = 100
+    
+    balance = float(input("Enter your total account balance :"))
     
     print("***********************")
     print("Welcome to python slot")
